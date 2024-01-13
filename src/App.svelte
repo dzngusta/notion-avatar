@@ -2,32 +2,24 @@
 	import Header from '@/components/Header.svelte';
 	import Title from '@/components/Title.svelte';
 	import Avatar from '@/components/Avatar.svelte';
-	import Selector from '@/components/Selector.svelte';
-	import Controls from '@/components/Controls.svelte';
+	import DesktopControls from '@/components/DesktopControls.svelte';
+	import MobileControls from '@/components/MobileControls.svelte';
 	import Random from '@/components/Random.svelte';
 	import Background from '@/components/Background.svelte';
-	import Copyright from '@/components/Copyright.svelte';
 </script>
 
 <slot>
 	<Header />
 	<Title />
-	<main class="flex flex-col flex-1 items-center justify-start w-full h-auto gap-9">
-		<div class="flex items-center justify-center w-full gap-12">
-			<Controls direction={'left'}>
-				<Selector type={'hair'} />
-				<Selector type={'eyes'} />
-				<Selector type={'mouth'} />
-			</Controls>
+	<main class="flex flex-col xs:flex-1 items-center justify-start sm:justify-center w-auto h-fit gap-9 sm:gap-12">
+		<div
+			class="flex flex-col lg:grid grid-cols-3 grid-areas-[main-left_main-center_main-right] items-center justify-start sm:justify-center w-full h-fit gap-7 xs:gap-9 lg:gap-12"
+		>
 			<Avatar />
-			<Controls direction={'right'}>
-				<Selector type={'head'} />
-				<Selector type={'outfit'} />
-				<Selector type={'accesories'} />
-			</Controls>
+			<MobileControls />
+			<DesktopControls />
 		</div>
 		<Random />
 	</main>
-	<!-- <Copyright /> -->
 	<Background />
 </slot>
