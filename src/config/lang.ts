@@ -12,7 +12,7 @@ export const LangConfig = {
 		'random.label': 'Avatar aleatório',
 	},
 	en: {
-		'title': 'Created your own<br /><b>Notion Avatar</b>',
+		'title': 'Create your own<br /><b>Notion Avatar</b>',
 		'label.hair': 'Hair',
 		'label.eyes': 'Eyes',
 		'label.mouth': 'Mouth',
