@@ -9,10 +9,10 @@
 
 	const onExport = () => {
 		html2canvas(document.querySelector('#avatar')!).then((canvas) => {
-			canvas.toBlob(function (blob) {
+			canvas.toBlob(function(blob) {
 				if (!blob) return;
 
-				var url = URL.createObjectURL(blob);
+				const url = URL.createObjectURL(blob);
 
 				const link = document.createElement('a');
 				link.href = url;

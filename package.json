@@ -9,7 +9,7 @@
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"lint": "eslint --ext .js,.svelte src",
-		"lint:fix": "eslint --ext .js,.svelte src --fix"
+		"lint:fix": "eslint --ext .ts,.js,.svelte src --fix"
 	},
 	"devDependencies": {
 		"@savvywombat/tailwindcss-grid-areas": "^3.1.0",
