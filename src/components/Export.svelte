@@ -27,7 +27,7 @@
 </script>
 
 <button
-	class="flex gap-2 items-center justify-center w-fit h-11 sm:h-12 bg-zinc-900 px-3 xs:px-6 py-2 rounded-2xl hover:scale-105 hover:brightness-110 active:scale-95 active:brightness-90 transition-all duration-100"
+	class="flex gap-2 items-center justify-center w-fit h-11 sm:h-12 bg-zinc-900 px-2.5 xs:px-6 py-2 rounded-2xl hover:scale-105 hover:brightness-110 active:scale-95 active:brightness-90 transition-all duration-100"
 	on:click={onExport}
 >
 	<img class="block xs:hidden w-6 h-6" src={downloadIcon} alt="Download Icon" />

@@ -28,9 +28,9 @@
 	};
 </script>
 
-<div class="flex relative w-fit md:w-28 h-fit">
+<div class="flex relative md:w-28 h-fit">
 	<button
-		class="flex justify-center items-center w-full h-11 sm:h-12 bg-zinc-50 text-zinc-900 border-2 border-zinc-900 font-fuzzy text-lg font-bold leading-none px-2.5 md:px-4 py-2 rounded-2xl hover:scale-105 hover:brightness-110 active:scale-95 active:brightness-95 transition-all duration-100 gap-2"
+		class="flex justify-center items-center w-full h-11 sm:h-12 bg-zinc-50 text-zinc-900 border-2 border-zinc-900 font-fuzzy text-lg font-bold leading-none px-2 md:px-4 py-2 rounded-2xl hover:scale-105 hover:brightness-110 active:scale-95 active:brightness-95 transition-all duration-100 gap-2"
 		on:click={onHandleOpen}
 	>
 		<img class="w-6 h-6 border-2 border-zinc-900 rounded-full" src={icons[$LanguageStore]} alt="Crevron Icon" />

@@ -33,7 +33,7 @@
 		margin: 0;
 
 		@apply bg-zinc-50;
-		@apply p-4 lg:p-6 xl:p-9;
+		@apply p-4 sm:p-6 xl:p-9;
 	}
 
 	#app {

@@ -6,6 +6,7 @@
 	import MobileControls from '@/components/MobileControls.svelte';
 	import Random from '@/components/Random.svelte';
 	import Background from '@/components/Background.svelte';
+	import Copyright from '@/components/Copyright.svelte';
 </script>
 
 <slot>
@@ -21,5 +22,6 @@
 		</div>
 		<Random />
 	</main>
+	<Copyright />
 	<Background />
 </slot>
